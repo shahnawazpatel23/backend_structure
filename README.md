@@ -47,6 +47,7 @@ MONGODB_URI: MongoDB connection string to connect to your database.
 PORT: The port number on which your server will run.
 
 Example .env File:
+
 	JWT_SECRET=your_jwt_secret_key
  
 	MONGODB_URI=your_mongodb_uri
