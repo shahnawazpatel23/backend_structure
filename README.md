@@ -1,21 +1,21 @@
-backendstruct
+backendstruct:-
 BackendStruct is a Node.js CLI tool designed to generate a backend folder structure, especially suited for projects that implement Role-Based Access Control (RBAC). It provides an organized structure that supports authentication and access control systems out-of-the-box.
 
-Features
-Role-Based Access Control (RBAC) ready structure.
-Creates a basic backend folder structure for your project.
-Automatically sets up the structure without any prompts.
-Easy to configure with environment variables like JWT_SECRET, MONGODB_URI, and PORT.
+Features:-
+	Role-Based Access Control (RBAC) ready structure.
+	Creates a basic backend folder structure for your project.
+	Automatically sets up the structure without any prompts.
+	Easy to configure with environment variables like JWT_SECRET, MONGODB_URI, and PORT.
 
 Installation
 To install the package, run:
 
-npm install backendstruct
+		npm install backendstruct
 
 Usage
 Once installed, you can create your backend project structure by running the following command:
 
-npx create-struct
+		npx create-struct
 
 Steps:
 Run the npx create-struct command in your terminal.
@@ -25,19 +25,19 @@ After the structure is created, you will need to set up the necessary environmen
 Folder Structure
 The tool will generate a folder structure like this:
 
-your-current-directory/
-├── config/
-│   └── db.js
-├── controllers/
-│   └── exampleController.js
-├── models/
-│   └── exampleModel.js
-├── routes/
-│   └── exampleRoutes.js
-├── middlewares/
-│   └── roleMiddleware.js
-├── app.js
-├── package.json
+				your-current-directory/
+				├── config/
+				│   └── db.js
+				├── controllers/
+				│   └── exampleController.js
+				├── models/
+				│   └── exampleModel.js
+				├── routes/
+				│   └── exampleRoutes.js
+				├── middlewares/
+				│   └── roleMiddleware.js
+				├── app.js
+				├── package.json
 This structure includes common directories such as config, controllers, models, routes, and middlewares to handle role-based access control.
 
 Environment Variables
