@@ -1,4 +1,3 @@
-backendstruct:-
 BackendStruct is a Node.js CLI tool designed to generate a backend folder structure, especially suited for projects that implement Role-Based Access Control (RBAC). It provides an organized structure that supports authentication and access control systems out-of-the-box.
 
 Features:-
@@ -48,15 +47,15 @@ MONGODB_URI: MongoDB connection string to connect to your database.
 PORT: The port number on which your server will run.
 
 Example .env File:
-JWT_SECRET=your_jwt_secret_key
-MONGODB_URI=your_mongodb_uri
-PORT=5000
+	JWT_SECRET=your_jwt_secret_key
+	MONGODB_URI=your_mongodb_uri
+	PORT=5000
 
 Example
-$ npx create-struct
-Creating project at: /path/to/current-directory
-Backend folder structure created successfully!
-After running the command, the backend folder structure will be set up in the current directory, ready for customization.
+	$ npx create-struct
+	Creating project at: /path/to/current-directory
+	Backend folder structure created successfully!
+	After running the command, the backend folder structure will be set up in the current directory, ready for customization.
 
 Role-Based Access Control (RBAC)
 The folder structure supports RBAC by including a middlewares/roleMiddleware.js file where you can implement your role-checking logic. This middleware will allow you to protect routes based on user roles.
@@ -64,8 +63,9 @@ The folder structure supports RBAC by including a middlewares/roleMiddleware.js 
 Troubleshooting
 If you encounter permission errors when trying to install the package globally, you can resolve it by using the following command with sudo:
 
-sudo npm install -g backendstruct
+	sudo npm install -g backendstruct
 
 
 License
+
 This project is licensed under the ISC License.
