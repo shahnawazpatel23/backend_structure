@@ -48,13 +48,18 @@ PORT: The port number on which your server will run.
 
 Example .env File:
 	JWT_SECRET=your_jwt_secret_key
+ 
 	MONGODB_URI=your_mongodb_uri
+ 
 	PORT=5000
 
 Example
 	$ npx create-struct
+ 
 	Creating project at: /path/to/current-directory
+ 
 	Backend folder structure created successfully!
+ 
 	After running the command, the backend folder structure will be set up in the current directory, ready for customization.
 
 Role-Based Access Control (RBAC)
